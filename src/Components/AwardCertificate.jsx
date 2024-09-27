@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 const AwardCertificate = () => {
   const certificates = [
     { id: 1, src: 'portfolio2/src/assets/devang mehta certificate.jpg', alt: 'Award Certificate 1' },
-    { id: 2, src: 'portfolio/src/assets/devang mehta certificate2.jpg', alt: 'Award Certificate 2' }
+    { id: 2, src: 'portfolio2/src/assets/devang mehta certificate2.jpg', alt: 'Award Certificate 2' }
   ];
 
   const controls = useAnimation();
