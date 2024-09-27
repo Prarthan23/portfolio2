@@ -5,13 +5,10 @@ import { useInView } from 'react-intersection-observer';
 
 const AwardCertificate = () => {
   const certificates = [
-<<<<<<< HEAD
+
     { id: 1, src: '/assets/devang mehta certificate.jpg', alt: 'Award Certificate 1' },
     { id: 2, src: 'assets/devang mehta certificate2.jpg', alt: 'Award Certificate 2' }
-=======
-    { id: 1, src: 'portfolio2/src/assets/devang mehta certificate.jpg', alt: 'Award Certificate 1' },
-    { id: 2, src: 'portfolio2/src/assets/devang mehta certificate2.jpg', alt: 'Award Certificate 2' }
->>>>>>> 7c2ddb54f22e9e93ab78cf1f3dd856def4706ca1
+
   ];
 
   const controls = useAnimation();
